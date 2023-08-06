@@ -5,6 +5,7 @@ import clientConfig3 from 'F:/code/lilongjie/node_modules/.pnpm/registry.npmmirr
 import clientConfig4 from 'F:/code/lilongjie/node_modules/.pnpm/registry.npmmirror.com+@vuepress+plugin-nprogress@2.0.0-beta.66/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig5 from 'F:/code/lilongjie/node_modules/.pnpm/registry.npmmirror.com+@vuepress+plugin-theme-data@2.0.0-beta.66/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from 'F:/code/lilongjie/node_modules/.pnpm/registry.npmmirror.com+@vuepress+theme-default@2.0.0-beta.66/node_modules/@vuepress/theme-default/lib/client/config.js'
+import clientConfig7 from 'F:/code/lilongjie/node_modules/.pnpm/registry.npmmirror.com+@vuepress+plugin-search@2.0.0-beta.66/node_modules/@vuepress/plugin-search/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -14,4 +15,5 @@ export const clientConfigs = [
   clientConfig4,
   clientConfig5,
   clientConfig6,
+  clientConfig7,
 ]

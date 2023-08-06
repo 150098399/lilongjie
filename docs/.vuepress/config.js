@@ -1,4 +1,5 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/lilongjie',
@@ -21,5 +22,10 @@ export default defineUserConfig({
         ]
       }
     ]
-  })
+  }),
+  plugins: [
+    searchPlugin({
+
+    })
+  ]
 })
