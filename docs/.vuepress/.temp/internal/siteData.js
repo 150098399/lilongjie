@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/lilongjie.github.io/\",\"lang\":\"zh-CN\",\"title\":\"三味书屋\",\"description\":\"踩坑日记&&生活记录\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/lilongjie/\",\"lang\":\"zh-CN\",\"title\":\"三味书屋\",\"description\":\"踩坑日记&&生活记录\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
