@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>三味书屋</title><meta name="description" content="踩坑日记&&生活记录">
+    <link rel="preload" href="/lilongjie/assets/style-18b3bbee.css" as="style"><link rel="stylesheet" href="/lilongjie/assets/style-18b3bbee.css">
+    <link rel="modulepreload" href="/lilongjie/assets/app-fd4c6b88.js"><link rel="modulepreload" href="/lilongjie/assets/404.html-dc61bc12.js"><link rel="modulepreload" href="/lilongjie/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/lilongjie/assets/index.html-711fc63f.js" as="script"><link rel="prefetch" href="/lilongjie/assets/chapter1.html-a7cb2781.js" as="script"><link rel="prefetch" href="/lilongjie/assets/index.html-4c47ce93.js" as="script"><link rel="prefetch" href="/lilongjie/assets/chapter1.html-3e3f49c0.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/lilongjie/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/lilongjie/assets/app-fd4c6b88.js" defer></script>
+  </body>
+</html>
